@@ -54,7 +54,13 @@ namespace HFCS_CH2_GroundUpProject
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-
+            int someValue = 3;
+            string name = "Bobbo Jr.";
+            if ((someValue == 3) || (name == "Joe"))
+            {
+                myLabel.Text = "x is 3 and the name is Joe";
+            }
+            myLabel.Text = "This line runs no matter what";
         }
 
         private void button4_Click(object sender, RoutedEventArgs e)
