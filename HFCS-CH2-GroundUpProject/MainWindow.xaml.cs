@@ -27,6 +27,15 @@ namespace HFCS_CH2_GroundUpProject
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            // this is a comment
+            string name = "Quentin";
+            int x = 3;
+            x = x * 17;
+            double d = Math.PI / 2;
+            myLabel.Text = "name is " + name
+                + "\nx is " + x
+                + "\nd is " + d;
+
 
         }
 
